@@ -1,0 +1,2 @@
+from transactions import init_transactions_table
+init_transactions_table()
