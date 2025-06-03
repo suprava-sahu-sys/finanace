@@ -1,7 +1,7 @@
 
-# Personal Finance Management Application
+Personal Finance Management Application
 
-## Table of Contents
+Table of Contents
 1. Project Overview
 2. Installation
 3. Application Setup
@@ -12,63 +12,52 @@
 8. Extending the Application
 9. License
 
-## Project Overview
+Project Overview
 This Python-based Personal Finance Management Application allows individual users to manage their financial transactions, set monthly budgets by category, and get notified if they exceed their budgets.
 
-## Installation
-### Prerequisites
+Installation
+Prerequisites
 - Python 3.6 or newer
 
-### Step-by-Step
+Step-by-Step
 1. Clone or download the project files
 2. Navigate to project folder: `cd path/to/your/project-folder`
 3. (Optional) Create a virtual environment
 4. Run: `python main.py`
 
-## Application Setup
+Application Setup
 On first run, the app will create `finance_app.db` and required tables automatically.
 
-## Features and Usage
-### 1. User Registration
+Features and Usage
+1. User Registration
 - Input username and password
 - Returns success or duplicate warning
 
-### 2. User Login
+2. User Login
 - Authenticate using stored credentials
 
-### 3. Adding Transactions
+3. Adding Transactions
 - Enter date, category, amount, and type
 
-### 4. Setting and Monitoring Budgets
+4. Setting and Monitoring Budgets
 - Set monthly limits by category
 - Get alerts if exceeded
 
-### 5. Backup and Restore
+. Backup and Restore
 - Backup creates a timestamped `.db` file
 - Restore loads data from a selected backup
 
-## Running the Application
-```bash
+Running the Application
 python main.py
-```
 
-## Testing
+Testing
 Run tests using:
-```bash
 python -m unittest discover tests
-```
 
-## Common Errors and Troubleshooting
-| Error | Cause | Solution |
-|-------|-------|----------|
-| Username exists | Already registered | Use a different name |
-| Budget exceeded | Spending > set limit | Monitor spending |
-| Missing argument | Function not used correctly | Fix function call |
-
-## Extending the Application
+Extending the Application
 - Add visualization
 - Implement password hashing
 - Monthly reports
 
-## License
+License
 Licensed under MIT License.
